@@ -3,7 +3,7 @@ body {
   background: linear-gradient(90deg, rgb(36, 100, 120) 10%, rgb(135, 189, 235) 100%);
 }
 body header {
-  background: linear-gradient(120deg, rgba(7, 24, 30, 0.789) 0%, rgba(135, 189, 235, 0) 50%), url("/assets/Img/Weather-patchwork.png");
+  background: linear-gradient(120deg, rgba(7, 24, 30, 0.789) 0%, rgba(135, 189, 235, 0) 50%), url("../../assets/Img/Weather-patchwork.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
