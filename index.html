@@ -13,24 +13,34 @@
     <title>Weather-App</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container">
 
-            <h1>WeathBetter</h1>        
+            <img src="assets/Img/WeatBetter-logo.png"/>
             
             <div id="infoMeteo">
+                
             </div>
-            <label>Where ?
-                <input id="cityName" type="text" value="" name="cityName"/>
-            </label>
-            <button id="searchButton" class="buttonSearch" role="button">Search</button>
-
+            <div class="iMeteo">
+                <label class="label">
+                    <input class="input" id="cityName" type="text" value="" name="cityName" placeholder="Entrer la ville ici"/>
+                </label>
+                <button id="searchButton" class="buttonSearch" role="button">Recherche</button>
+            </div>
         </div>
     </header>
+    <!-- fin header -->
+    <!-- Main -->
     <main> 
         <div class="container">
 
-            <div id="infoMeteo5jours">    
+            <div id="infoMeteo5jours">  
+                <p class="dateprevision"></p>
+                <p class="temperatureMin"></p>
+                <p class="temperatureMax"></p>
+                <p class="description"></p>
+                <p class="iconImg"></p>
             </div>
 
         </div>
