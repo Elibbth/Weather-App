@@ -1,0 +1,24 @@
+let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+favorites.forEach(function(favorite) {
+    document.getElementById(favorite).className = 'fav';
+});
+
+    document.querySelector('.list').addEventListener('click', function(e) {
+    let id = e.target.id,
+        item = e.target,
+        index = favorites.indexOf(id);
+
+    if (!id) return;
+
+    if (index == -1) {
+        favorites.push(id);
+        item.className = 'fav';
+
+    } else {
+        favorites.splice(index, 1);
+        item.className = '';
+    }
+
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+});

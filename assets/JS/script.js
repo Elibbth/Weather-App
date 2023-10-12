@@ -6,7 +6,7 @@ const unsplashKey ="UBEtEoEZcXtAUV6H8tfuo8uXZwrm1ZtDTZpdyXpkSjM";
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchButton = document.getElementById('searchButton');
-    const cityName = document.getElementById('cityName');
+    const cityName = document.getElementById('cityName');   //input
     let mypic = "";
 
     searchButton.addEventListener('click', () => {
