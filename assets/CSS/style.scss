@@ -58,7 +58,7 @@ body {
                     border-radius: 50%;
                     background-size: cover;
                     float: right;
-                    margin-top: -85px;
+                    margin-top: -100px;
                 }
             }
             
@@ -116,6 +116,13 @@ body {
                     img {
                         height: 14px;
                     }
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                #infoMeteo5jours {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
                 }
             }
         }
